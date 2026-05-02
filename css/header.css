@@ -8,17 +8,17 @@ header {
   position: relative;
 }
 
-/*classe "logo" definida no html*/
+/*classe "logo" definida no html na linha 11*/
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
 }
-
+/*classe "navigation-menu" definida no html na linha 17*/
 .navigation-menu {
   margin-top: 24px;
 }
-
+/*input type checkbox incluído no html na linha 19*/
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
@@ -31,12 +31,12 @@ input[type="checkbox"]:checked ~ nav {
 nav {
   display: none;
 }
-
+/*classe "list-links" definida no html na linha 22*/
 .list-links {
   list-style: none;
 }
 
-.list-links li{
+.list-links li {
   margin: 16px 0;
 }
 .list-links li a {
